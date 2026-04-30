@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Home - Miss Frociarola Italia</title>
+<meta charset="UTF-8">
+<title>Miss Frociarola Italia</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: linear-gradient(135deg, #000000, #1a1a1a);
-      color: white;
-      text-align: center;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: white;
+  text-align: center;
+}
 
-    h1 {
-      margin-top: 50px;
-      font-size: 40px;
-    }
+header {
+  padding: 40px;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-    .card {
-      margin: 30px auto;
-      padding: 20px;
-      width: 250px;
-      background: #222;
-      border-radius: 10px;
-    }
+h1 {
+  font-size: 40px;
+}
 
-    button {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 10px;
-      background: #ff4081;
-      color: white;
-      cursor: pointer;
-    }
+p {
+  font-size: 18px;
+}
 
-    button:hover {
-      background: #ff1c6b;
-    }
-  </style>
+button {
+  padding: 15px 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff4081;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff1c6b;
+}
+
+.section {
+  margin-top: 50px;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>👑 Concorrenti</h1>
+<header>
+MISS FROCIAROLA ITALIA 💖
+</header>
 
-<div class="card">
-  <h2>Nome concorrente</h2>
+<h1>Benvenuto nel sito ✨</h1>
+<p>Qui puoi votare e partecipare 👑</p>
+
+<div class="section">
+  <h2>👑 Concorrenti</h2>
+
+  <p>Nome concorrente 1</p>
+  <button onclick="alert('Voto registrato!')">Vota</button>
+
+  <p>Nome concorrente 2</p>
   <button onclick="alert('Voto registrato!')">Vota</button>
 </div>
 
-<div class="card">
-  <h2>Nome concorrente</h2>
-  <button onclick="alert('Voto registrato!')">Vota</button>
+<div class="section">
+  <h2>📩 Iscrizioni</h2>
+  <button onclick="alert('Iscrizioni presto disponibili!')">
+    Iscriviti
+  </button>
 </div>
 
-<br>
+<br><br>
 
 <a href="index.html">
   <button>Torna alla home</button>
